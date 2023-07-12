@@ -1,0 +1,275 @@
+/* fonts for the website */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: Lato, 'Times New Roman', Times, serif ;
+}
+
+/*-----------------------
+    the header section 
+-------------------------*/
+.header{
+    background-color: #E554731A;
+    display: flex;
+    gap: 100px;
+    padding: 50px 200px 0px 200px;
+}
+.intro-heading{
+    font-size: 70px;
+    font-weight: 800;
+}
+.image1{
+    height:700px;
+    width:500px;
+}
+.intro-text{
+    padding-top:35px;
+    padding-bottom:20px;
+    font-size: 18px;
+    color: #27272799;
+}
+.btn-general{
+    background-color: #E55473;
+    color: #FFFFFF;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*------------------------
+      the intro section
+--------------------------*/
+
+.main{
+    margin: 150px 200px 100px 200px;
+}
+.main-text{
+    margin: 0px 200px 25px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+} 
+.general-title{
+    font-size: 35px;
+    font-weight: 800px;
+    text-align: center;
+}
+.main-description{
+    color: #27272799;
+    font-size: 18px;
+    text-align: center;
+}
+.showcase{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.showcase-1{
+    width: 400px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    align-items: last baseline; 
+    background-color:#A7216226;
+    
+}
+.showcase-2{
+    width: 400px;
+    height: 500px;
+    border-radius:300px 300px 0px 0px;
+    display: flex;
+    align-items: last baseline;
+    background-color: #0597A026; 
+}
+.showcase-3{
+    width: 400px;
+    height: 500px;
+    border-radius:300px 300px 0px 0px;
+    display: flex;
+    align-items: last baseline;
+    background-color: #477D1126;    
+}
+.image-name{
+    text-decoration: underline;
+}
+
+/*-----------------------
+    services section
+----------------------- */
+.services{
+    margin: 75px 150px;
+    padding: 70px 150px;
+    background-color: #2727270D;
+    display: flex;
+    justify-content: space-between;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-image{
+    height: 80px;
+    width: 80px;
+}
+
+/*--------------------------------
+     offer section styles
+--------------------------------*/
+
+.offer{
+    display: flex;
+    gap: 180px;
+    padding: 100px 300px;
+    background-color: #E554730D;
+}
+.offer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-unique{
+    color: #E55473;
+}
+.offer-description{
+    text-align: center;
+    color: #27272799;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*--------------------------------
+     instagram showcase styles 
+----------------------------------*/
+/* .instagram{
+    
+} */
+.insta-text{
+    margin: 80px 400px 40px 400px;
+    display: flex;
+    flex-direction: column;
+}
+.insta-description{
+    color: #27272799;
+    font-size: 18px;
+    text-align: center;
+}
+.insta-image-container{
+    margin:30px 150px 100px 150px;
+    display: flex;
+    gap: 20px;
+}
+.insta-image{
+    width: 280px;
+    height: 320px;
+}
+
+/*--------------------------
+      facebook styles       
+----------------------------*/
+.facebook{
+    height: 510px;
+    background-color: #010c0d26;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.fb-text{
+    padding: 20px 500px 40px 500px;
+    font-size: 18px;
+    color: #27272799;
+    text-align: center;
+}
+.text{
+    padding-top: 100px;
+    width: 450px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    background-color: #010c0d26;
+}
+.fb-title{
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+}
+.fb-special{
+    color: blue;
+}
+.fb-title2{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.fb-text2{
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+}
+.day-img{
+    width: 300px;
+    height: 505px;
+}
+
+
+
+/*-----------------------
+     contact form
+------------------------*/
+
+.contact{
+    margin: 100px 150px;
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/Rectangle\ 9.png);
+}
+.contact-text{
+    padding-bottom: 25px;
+    color: #27272799;
+    font-size: 18px;
+}
+.contact-form{
+    display: flex;
+    gap: 25px;
+}
+.input{
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*-------------------
+    footer style      
+--------------------*/
+
+.footer{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 500px;
+    background-color: #111010;
+}
+.footer-title{
+    color: #FFFFFF;
+}
+.footer-text{
+    color: #FFFFFFE5;
+    font-size: 18px;
+    text-align: center;
+}
+.footer-copy{
+    color: #FFFFFF66;
+    font-size: 16px;
+    text-align: center;
+}
